@@ -1,0 +1,11 @@
+.rightPanel{position: fixed;right: 19px;width: 33%}
+.addmore{margin-bottom: 5px;padding: 10px;color: white;background-color: #627900;cursor: pointer;display: none;}
+.productList hr{margin-top: 5px !important;display: none;}
+.productList label:first-child{margin-top: 10px !important;}
+.itemSelectCss{line-height: 12px;padding-left: 5px;padding-right: 5px;color: #000000;box-shadow: 0 0 3px 3px #090;padding-top: 10px !important;padding-bottom: 0px !important;}
+.productAttributeSection .row{margin-left: 0px !important}
+.sub-panel-heading{border: 1px #D0D0D0 solid;background-color: #B7B7B7;text-align: center;color: white;line-height: 5px;padding-bottom: 3px;}
+
+@media only screen and (max-width: 700px) {
+    .rightPanel{position: relative;width:100%;}
+}
