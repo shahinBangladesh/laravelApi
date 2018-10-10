@@ -16,3 +16,16 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::post('user','ApiController@user');
+Route::post('device','ApiController@devices');
+Route::post('ccAddress','ApiController@ccAddress');
+Route::get('ccAddress','ApiController@getCcAddress');
+Route::post('news','ApiController@news');
+Route::post('offer','ApiController@offer');
+Route::get('offer','ApiController@getOffer');
+Route::get('news','ApiController@getNews');
+Route::get('topCardNews','ApiController@topCardNews');
+Route::get('newsSeries','ApiController@newsSeries');
+Route::get('newsUserSegment','ApiController@newsUserSegment');
+Route::get('userListWithLastDevicesRow','ApiController@userListWithLastDevicesRow');
